@@ -1,6 +1,7 @@
 # Week 1: Setting up GitHub and Conda
 
 ## GitHub
+
 GitHub is a web-based platform that allows you to store and manage your code. It is widely used by developers and data scientists to collaborate on projects and share their work with others. In this course, we will be using GitHub to store and share our code, both for the exercises as well as the milestones and final assignment.
 
 ### 1. Create a GitHub account
@@ -24,7 +25,9 @@ We usually use the command line to interact with GitHub. We will look at the mos
 
 <details>
 <summary>Detailed steps</summary>
+
 #### MacOS
+
 1. Open the Terminal app (`cmd + space` and type `terminal`). Alternatively, you can use iTerm2 or any other terminal emulator.
 2. Type:
 ```bash
@@ -33,6 +36,7 @@ xcode-select --install
 3. Follow the instructions to install the command line developer tools.
 
 #### Windows
+
 % TODO: should download interface for linux?
 1. Download Git from the [official website](https://git-scm.com/download/win) (choose the 32 or 64-bit version depending on your system).
 2. Open the downloaded file and follow the installation instructions.
@@ -49,12 +53,14 @@ git config --global user.email "user@epfl.ch" # Replace with the associated emai
 ```bash
 git config --global --list
 ```
+</details>
 
 ### 3. Create a Profile README
 A profile README is a special repository that is automatically displayed on your GitHub profile. It is a great way to introduce yourself and showcase your work. Take your time to create such a README on the GitHub website.
 
 <details>
 <summary>Detailed steps</summary>
+
 1. On GitHub, in the upper-right corner of any page, click on the `+` and then click `New repository`.
 2. Name the repository with your GitHub username (must match exactly!).
 3. Select the `Public` option.
@@ -70,10 +76,12 @@ A profile README is a special repository that is automatically displayed on your
 Finally, we will create our first repository and update it via the command line. Please make sure to create a public repository (so the TAs can see it) and to add a README file.
 
 #### Creating a new repository
+
 1. Go to the GitHub website and click on the `+` in the top right corner and then `New repository`.
 2. Name the repository `ppchem` and select the `Public` option. Also check the box to `Initialize this repository with a README`.
 
 #### Cloning the repository
+
 3. Open your terminal and navigate to the directory where you want to store the repository.
 4. Type the following command to clone (download) the repository to your local machine:
 ```bash
@@ -82,6 +90,7 @@ git clone https://github.com/username/ppchem.git # Replace with your GitHub user
 4. Navigate into the repository by typing `cd ppchem`.
 
 #### Making changes and committing them
+
 Whenever you make changes to your repository, you need to commit them to save the changes to the repository's history.
 
 5. Open the README file in your favorite text editor and name your favorite molecule. Your TAs recommend `Caffeine` including a picture of the molecule.
@@ -97,6 +106,7 @@ git commit -m "Some message" # Replace with a meaningful message
 ```
 
 #### Pushing the changes to GitHub
+
 For now, we only made changes to the local repository and committed them (prepared them for upload). We need to push the changes to GitHub to make them available to others.
 
 9. Type the following command to push the changes to GitHub:
@@ -107,6 +117,7 @@ git push origin main # Replace with the branch name if you are not on the main b
 You can check the status of your repository at any time by typing `git status` in your terminal in the folder of the repository. This will also show you the changes you made and the files you staged as well as the branch you are currently on.
 
 #### Working with branches
+
 10. Type the following command to create a new branch:
 ```bash
 git checkout -b new-branch-name
@@ -121,6 +132,7 @@ git push origin new-branch-name
 ```
 
 #### Pulling changes from GitHub
+
 If you are working on a repository with others, you might want to pull the changes they made to your local repository. You can do this by typing `git pull` in your terminal in the folder of the repository.
 
 ## Conda
