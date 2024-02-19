@@ -22,10 +22,10 @@ Go to the [GitHub website](https://github.com) and sign up for an account if you
 8. (Optional) The GitHub Student Developer Pack is a free offer from GitHub specially for students. It provides access to a variety of premium development tools and services free of charge for as long as you’re a student. [GitHub Student Developer Pack](https://education.github.com/pack)
 </details>
 
-::: {.callout-tip}
-# Milestone 1:
-**Create a GitHub account**. Report in [Milestones](#milestones)
-:::
+> :trophy: **Milestone 1**
+>
+> Create a GitHub account. *Report in [Milestones](#milestones)*
+
 
 ### 2. Configuration: Command Line Git
 We usually use the command line to interact with GitHub. We will look at the most common actions but here is a [cheat sheet](https://about.gitlab.com/images/press/git-cheat-sheet.pdf) for the most common commands. Make sure you have Git installed on your computer by typing `git --version` in your terminal.
@@ -44,7 +44,6 @@ xcode-select --install
 
 #### Windows
 
-% TODO: should download interface for linux?
 1. Download Git from the [official website](https://git-scm.com/download/win) (choose the 32 or 64-bit version depending on your system).
 2. Open the downloaded file and follow the installation instructions.
 3. Launch the Git Bash terminal.
@@ -78,13 +77,11 @@ A profile README is a special repository that is automatically displayed on your
 8. Once you are done, click on `Commit changes`.
 </details>
 
-::: {.callout-tip}
-# Milestone 2:
-**Create a GitHub Profile Page**. Report in [Milestones](#milestones)
-:::
+> :trophy: **Milestone 2**
+>
+> Create a GitHub Profile Page. *Report in [Milestones](#milestones)*
 
 ### 4. GitHub Basics: Create a Repository
-% TODO: creating, cloning, pushing, pulling, forking, pull requests, issues, etc.
 Finally, we will create our first repository and update it via the command line. Please make sure to create a public repository (so the TAs can see it) and to add a README file.
 
 #### Creating a new repository
@@ -107,7 +104,7 @@ In order to clone any repository, you need to have the URL of the repository. Yo
 
 Whenever you make changes to your repository, you need to commit them to save the changes to the repository's history.
 
-5. Add an image of your favorite molecules to the repository directory. Your TAs recommend `Caffeine`.
+5. Add an image of your favorite molecules to the repository directory. Your TAs recommend `Caffeine` :coffee:.
 6. Type the following command to stage the changes:
 ```bash
 git add caffeine.png # stages only the added file - replace with the file name
@@ -129,10 +126,9 @@ git push origin main # Replace with the branch name if you are not on the main b
 
 You can check the status of your repository at any time by typing `git status` in your terminal in the folder of the repository. This will also show you the changes you made and the files you staged as well as the branch you are currently on.
 
-::: {.callout-tip}
-# Milestone 3:
-**Commit and push a change**. Report in [Milestones](#milestones)
-:::
+> :trophy: **Milestone 3**
+>
+> commit and push a change. *Report in [Milestones](#milestones)*
 
 #### Working with branches
 
@@ -149,10 +145,9 @@ git checkout new-branch-name
 git push origin new-branch-name
 ```
 
-::: {.callout-tip}
-# Milestone 4:
-**Create a new branch**. Report in [Milestones](#milestones)
-:::
+> :trophy: **Milestone 4**
+>
+> Create a new branch. *Report in [Milestones](#milestones)*
 
 #### Pulling changes from GitHub
 
@@ -182,12 +177,11 @@ Then, when all parties agree that the changes are ready, the owner or authorized
 
 Remember, properly communicating what changes you've made and why you made them in the pull request description is an integral part of effective collaboration.
 
-::: {.callout-tip}
-## Optional milestones 7 & 8:
-**Create a pull request**. Report in [Milestones](#milestones)
-
-**Review a pull request**. Report in [Milestones](#milestones)
-:::
+> :trophy: **Optional milestones 7&8**
+>
+> Create a pull request. *Report in [Milestones](#milestones)*
+>
+>Review a pull request. *Report in [Milestones](#milestones)*
 
 #### Summary of important commands
 
@@ -237,8 +231,8 @@ In a terminal, type the following commands:
 ```bash
 conda create -n ppchem python=3.10
 conda activate ppchem
-conda install pandas -c anaconda -y  # installs numpy as dependency
-conda install rdkit=2022.09.5 -c conda-forge -y
+pip install pandas  # installs numpy as dependency
+pip install rdkit==2022.09.5
 pip install jupyterlab
 ```
 
@@ -263,10 +257,9 @@ git push origin main
 
 </details>
 
-::: {.callout-tip}
-# Milestone 5:
-**Create a conda environment**. Report in [Milestones](#milestones)
-:::
+> :trophy: **Milestone 5**
+>
+> Create a conda environment. *Report in [Milestones](#milestones)*
 
 ### Some useful commands
 
@@ -281,7 +274,6 @@ git push origin main
 
 We will track our progress in the milestones repository. Please fork the repository to your GitHub account and create a new branch for each milestone. Once you have completed a milestone, push the changes to your fork and create a pull request to the original repository. Your TAs will review your pull request and provide feedback if necessary. The [milestones repository](https://github.com/schwallergroup/practical-programming-in-chemistry-milestones?tab=readme-ov-file) includes all the instructions on how to use it. You can start updating once you have Git set up.
 
-::: {.callout-tip}
-## Milestone 6:
-**Fork the milestones repository**
-:::
+> :trophy: **Milestone 6**
+>
+>Fork the milestones repository
