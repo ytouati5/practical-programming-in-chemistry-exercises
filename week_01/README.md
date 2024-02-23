@@ -10,7 +10,7 @@ For the following exercises we will have to use the Terminal (Mac) or Powershell
 | Navigate to home directory | `cd ~` | `cd %HOMEPATH%` |
 | Change directory | `cd directoryName` | `cd directoryName` |
 | Go up on folder | `cd ..` | `cd ..`|
-| Go to **direcotry that has spaces**| `cd "directory Name"` | `cd "directory Name"` |
+| Go to **directory that has spaces**| `cd "directory Name"` | `cd "directory Name"` |
 | Figure out which directory you're in | `pwd` | `pwd` |
 | List files in current directory | `ls` | `dir` |
 | Make a new directory | `mkdir directoryName` | `mkdir directoryName` |
@@ -241,10 +241,15 @@ Remember, the best way to become comfortable with Git is practice. Try using the
 
 ## Conda
 
-### 1. Download and install Miniconda
-We will use Miniconda to manage our Python environment. Miniconda is a smaller version of Anaconda, a popular Python distribution. It comes with the `conda` package manager, which allows you to install, update, and remove packages from your environment and importantly share your environment with others.
+### 1. Download and install Anaconda
+We will use Anaconda to manage our Python environment. Anaconda is a popular Python distribution that comes with the `conda` package manager, which allows you to install, update, and remove packages from your environment and importantly share your environment with others.
 
-Please follow [these instructions](https://docs.anaconda.com/free/miniconda/) to install Miniconda on your computer selecting the respective OS. Once you have installed Miniconda, you should start a new terminal and check your installation by typing `conda --help`, which should display the help message for `conda`.
+Here's how to download Anaconda:
+
+1. Navigate to [Anaconda's download page](https://www.anaconda.com/products/distribution#Downloads).
+2. Choose the graphical installer for your operating system (Windows, macOS, or Linux). ❗MacOS❗: [Check if you have an Intel or M1/M2 chip](https://help.arcstudiopro.com/all-how-tos/how-do-i-know-if-my-mac-has-intel-processor-or-apple-m1) and select the respective download.
+3. Run the downloaded file and follow the installation instructions. ❗Windows❗: Once you get prompted if you want to store conda in your path **choose to add it to you `PATH`** as in the _Alternative Option_ below: ![windows_path](assets/windows_conda_path.png)
+5. Verify installation by typing `conda --version` in your Terminal or PowerShell. ❗Windows❗: If you did not add conda to your `PATH` you will have to use the `Anaconda Prompt Shell` downloaded to your applications.
 
 ### 2. Create a new environment
 
@@ -280,9 +285,11 @@ Once you have installed all necessary packages, you should export the environmen
 <details>
 <summary>Solution: Commands</summary>
 
+Don't forget to reaplce `path/to/ppchem` with your path!
+
 ```bash
-cd path/to/ppchem
-git checkout -b main # Make sure to be on the main branch
+cd <path/to/ppchem>
+git checkout main # Make sure to be on the main branch
 conda activate ppchem
 conda env export > env.yml
 git add env.yml
@@ -294,7 +301,7 @@ git push origin main
 
 > :trophy: **Milestone 5**
 >
-> Create a conda environment. *Report in [Milestones](#milestones)*
+> Create a conda environment. *Report the link to the pushed conda file in [Milestones](#milestones)*
 
 ### Some useful commands
 
