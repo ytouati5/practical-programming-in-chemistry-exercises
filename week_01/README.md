@@ -117,7 +117,7 @@ Git will ask for your password when you clone a repository (next step). In order
 3. Go to the GitHub website and click on your profile in the upper right corner and then `⚙️ Settings`
 4. Scroll to the end of the option bar on the left and click on `<> Developer settings` > `🔑 Personal access tokens` > `Tokens (classic)`
 5. Next, in the upper right, click on `Generate new token` and choose the classic version.
-6. Give the PAT a name and select the needed options like in the example below and then hit the `Generate token` at the bottom. ![PAT](assets/PAT.png)
+6. Give the PAT a name and select the needed options like in the example below and then hit the `Generate token` at the bottom. ![PAT](../assets/PAT.png)
 7. **❗Copy the PAT now to a save location❗** You will need this code later when prompted for a password. It will start with `ghp_` followed by a bunch of numbers and letters.
 
 #### Cloning the repository
@@ -248,7 +248,7 @@ Here's how to download Anaconda:
 
 1. Navigate to [Anaconda's download page](https://www.anaconda.com/products/distribution#Downloads).
 2. Choose the graphical installer for your operating system (Windows, macOS, or Linux). ❗MacOS❗: [Check if you have an Intel or M1/M2 chip](https://help.arcstudiopro.com/all-how-tos/how-do-i-know-if-my-mac-has-intel-processor-or-apple-m1) and select the respective download.
-3. Run the downloaded file and follow the installation instructions. ❗Windows❗: Once you get prompted if you want to store conda in your path **choose to add it to you `PATH`** as in the _Alternative Option_ below: ![windows_path](assets/windows_conda_path.png)
+3. Run the downloaded file and follow the installation instructions. ❗Windows❗: Once you get prompted if you want to store conda in your path **choose to add it to you `PATH`** as in the _Alternative Option_ below: ![windows_path](../assets/windows_conda_path.png)
 5. Verify installation by typing `conda --version` in your Terminal or PowerShell. ❗Windows❗: If you did not add conda to your `PATH` you will have to use the `Anaconda Prompt Shell` downloaded to your applications.
 
 ### 2. Create a new environment
