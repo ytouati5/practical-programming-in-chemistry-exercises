@@ -21,6 +21,13 @@ For the following exercises we will have to use the Terminal (Mac) or Powershell
 | Display file's contents | `cat fileName` | `type fileName` |
 | Clear the command line screen | `clear` | `cls` |
 
+
+#### General advice for getting used to the command line
+
+* Whenever there is a copy-paste-able block of commands, take the time to type out each command manually. This will help you understand better what they are doing. If there's one you don't understand, search it in Google to find out what it does.
+* When you run an individual command, check the output. If there is an error message, a command is likely mistyped or doesn't make sense in that specific context. Continuing with the next command will not make sense if the previous one did not run successfully.
+* Understanding error messages is a really important aspect of programming in general, and is a skill that through practice can be developed over time. 
+
 ## GitHub
 
 GitHub is a web-based platform that allows you to store and manage your code. It is widely used by developers and data scientists to collaborate on projects and share their work with others. In this course, we will be using GitHub to store and share our code, both for the exercises as well as the milestones and final assignment.
