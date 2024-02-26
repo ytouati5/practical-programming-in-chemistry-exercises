@@ -122,9 +122,9 @@ Git will ask for your password when you clone a repository (next step). In order
 
 #### Cloning the repository
 
-8. Open your terminal and **navigate to the directory where you want to store the repository** (replace `path/to/desired/directory` with that folder).
+8. Open your terminal and **navigate to the directory where you want to store the repository** (replace `~/git` with that folder). This is often a folder called `git` in your home directory (`~`). You have to create the folder with e.g. `mkdir git` if it does not exist yet.
 ```bash
-cd path/to/desired/directory
+cd ~/git
 ```
 9. Type the following command to clone (download) the repository to your local machine (don't forget to replace `username` with your username):
 ```bash
@@ -138,7 +138,7 @@ In order to clone any repository, you need to have the URL of the repository. Yo
 
 Whenever you make changes to your repository, you need to commit them to save the changes to the repository's history.
 
-11. Add an image from the internet of your favorite molecule to the repository directory. Your TAs recommend `Caffeine` :coffee:. You can do this by drag and drop on your file system or by using the `mv` command shown in the [command table](#summary-of-important-general-commands) after downloading an image.
+11. Add an image from the internet of your favorite molecule to the repository directory on your computer. Your TAs recommend `Caffeine` :coffee:. You can do this by drag and drop on your file system or by using the `mv` command shown in the [command table](#summary-of-important-general-commands) after downloading an image.
 12. Type one of the following commands to stage the changes:
 ```bash
 git add caffeine.png # stages only the added file - replace with the actual file name
