@@ -77,7 +77,7 @@ Then, follow these instructions:
    update-env`
    
 Navigate to your repository on Github, at URL:
-`https://github.com/<username>/practical-programming-in-chemistry-milestones`. You should
+`https://github.com/<username>/ppchem`. You should
 see a green button "Compare & pull request" like below:
 
 ![Pull Request 1](../assets/week_04_pull_request/pull_request_1.png)
@@ -88,7 +88,7 @@ Click this, and you'll arrive at the `Comparing changes` screen:
 
 As we want to update our personal fork of the repository, not the repository owned by
 `schwallergroup`, we need to change the base repository to
-`<username>/practical-programming-in-chemistry-milestones`
+`<username>/ppchem`
 
 ![Pull Request 3](../assets/week_04_pull_request/pull_request_3.png)
 
@@ -104,7 +104,7 @@ Finally, update the "Open a pull request" row of your Personal Milestones table 
 URL of the pull request.
 
 For example, the URL of my (Joe's) PR was:
-https://github.com/jwa7/practical-programming-in-chemistry-milestones/pull/2 
+https://github.com/jwa7/ppchem/pull/2 
 
 
 Good job! Now onto the week 4 exercises...
