@@ -21,4 +21,4 @@ It would be good practice for you to try and write the commands yourselves. If y
 6. Go back to your terminal and type `git pull` to get the new exercises. 
 </details>
 
-> Happy coding :hugging-face: 
+*Happy coding* :star_struck:
